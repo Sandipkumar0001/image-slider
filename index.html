@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Slider</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	
+
+<div class="slide-container">
+	<div class="name">
+		<h1> Image Slider</h1>
+	</div>
+
+	
+	<div class="slides">
+		<img src="./pexels-eberhardgross-640781.jpg" class="active">
+		<img src="./pexels-eberhardgross-691668.jpg">
+		<img src="./pexels-pixabay-371589.jpg">
+		<img src="./pexels-pixabay-417173.jpg">
+		<img src="./pexels-souvenirpixels-417074.jpg">
+	</div>
+
+	<div class="buttons">
+		<span class="next">&#10095;</span>
+		<span class="prev">&#10094;</span>
+	</div>
+
+	<div class="dotsContainer">
+		<div class="dot active" attr='0' onclick="switchImage(this)"></div>
+		<div class="dot" attr='1' onclick="switchImage(this)"></div>
+		<div class="dot" attr='2' onclick="switchImage(this)"></div>
+		<div class="dot" attr='3' onclick="switchImage(this)"></div>
+		<div class="dot" attr='4' onclick="switchImage(this)"></div>
+	</div>
+	
+</div>
+
+	
+	<script src="./index.js"></script>
+</body>
+</html>
